@@ -51,46 +51,6 @@ export const constantRouterMap = [
       }
     ]
   },
-
-  {
-    path: '/form',
-    component: Layout,
-    children: [
-      {
-        path: 'index',
-        name: 'Form',
-        component: () => import('@/views/find/index'),
-        meta: { title: '搜索热点', icon: 'form' }
-      }
-    ]
-  },
-
-  // {
-  //   path: '/deviceList',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: '/deviceList',
-  //       name: 'deviceList',
-  //       component: () => import('@/views/deviceList/index'),
-  //       meta: { title: '设备列表', icon: 'example' }
-  //     }
-  //   ]
-  // },
-  //
-  // {
-  //   path: '/repairmanList',
-  //   component: Layout,
-  //   children: [
-  //     {
-  //       path: '/repairmanList',
-  //       name: 'repairmanList',
-  //       component: () => import('@/views/repairmanList/index'),
-  //       meta: { title: '维修人员', icon: 'user' }
-  //     }
-  //   ]
-  // },
-
   { path: '*', redirect: '/404', hidden: true }
 ]
 
