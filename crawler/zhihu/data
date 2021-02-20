@@ -1,0 +1,10 @@
+{
+  'headers': {
+    'Accept': '*/*',
+    'Accept-Encoding': 'gzip, deflate',
+    'Cookie': 'Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1586419244; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1586419244; KLBRSID=b33d76655747159914ef8c32323d16fd|1586419760|1586419374; _ga=GA1.2.1562305503.1586419243; _gid=GA1.2.1215605689.1586419243; _xsrf=kNbNU4I2tXalaIhDuXiQbqf1ATuABgFZ; _zap=36721b44-5fcb-4870-b933-fa7a80897ad5; capsion_ticket="\\"2|1:0|10:1586419374|14:capsion_ticket|44:MmI5Mzg5MjA5OThiNDlkOWFiOWYxNWU5YTEzZGJmNmE=|a326677b631638f747ea3aeb9cd4397d1a9718f787fb95276a4a33c759744da0\\""; d_c0="\\"AADSu1aRFxGPTjGqEe6uTMhdMNALBBraUQ4=|1586419379\\""; tst=r; z_c0="\\"2|1:0|10:1586419379|4:z_c0|80:MS4xR2NUakR3QUFBQUFtQUFBQVlBSlZUYk1rZkY4Q1NFMVFKX2hmV0xvRXZpNmdxLUVPcnZ1Z2ZnPT0=|3d209a9dbad2de0a571ddf85e0420385e06ae07072d1d4cc01a935f6112ecf1d\\""',
+    'Host': 'httpbin.org',
+    'User-Agent': 'Python/3.8 aiohttp/3.6.2',
+    'X-Amzn-Trace-Id': 'Root=1-5e8edbd4-760dba80d239f0a0d98dc0e0'
+  }
+}

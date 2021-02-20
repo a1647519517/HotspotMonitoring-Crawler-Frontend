@@ -1,32 +1,31 @@
 import request from '@/utils/request'
 
-export function getList(params) {
+export function getData() {
   return request({
-    url: '/admin/repairList',
-    method: 'get',
-    params
+    url: '/admin/getData',
+    method: 'get'
   })
 }
 
-export function getRepairmanList(params) {
-  return request({
-    url: '/admin/repairmanList',
-    method: 'get',
-    params
-  })
-}
-
-export function setRepairman(logId, repairmanName, deviceId) {
-  return request({
-    url: '/admin/setRepairman',
-    method: 'post',
-    data: {
-      logId,
-      repairmanName,
-      deviceId
-    }
-  })
-}
+// export function getRepairmanList(params) {
+//   return request({
+//     url: '/admin/repairmanList',
+//     method: 'get',
+//     params
+//   })
+// }
+//
+// export function setRepairman(logId, repairmanName, deviceId) {
+//   return request({
+//     url: '/admin/setRepairman',
+//     method: 'post',
+//     data: {
+//       logId,
+//       repairmanName,
+//       deviceId
+//     }
+//   })
+// }
 
 export function deleteLog(logId) {
   return request({
